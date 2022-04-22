@@ -1,0 +1,288 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#main{ 
+    padding: 10px;
+    background: #D3D3D3;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 600px;
+}
+
+#title {
+    font-family: basquiat;
+    font-size: 8rem;
+    margin-left: 30px;
+    text-decoration:underline #FCDA05;
+}
+
+.subtitle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+#insta {
+    width: 50px;
+    color: #000;
+    margin-right: 10px;
+}
+
+#img-div {
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+    background: #d6d6d6;
+}
+
+#image {
+    display: block;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#img-caption {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration:underline #FCDA05;
+}
+
+.headline {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: basquiat;
+    font-size: 6rem;
+    text-decoration:underline #FCDA05;
+}
+
+ul {
+    text-align: left;
+    width: 1100px;
+    line-height: 0.5;
+    margin-left: 80px;
+}
+
+#tribute-info ul li {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4rem;
+    list-style: none;
+}
+
+.crown {
+    width: 4%;
+    border-radius: 90%;
+}
+
+/* carousel */
+
+.carousel-container {
+    height: 500px;
+    background:  #FCDA05;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    height: 450px;
+    background: #FCDA05;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+
+.carousel-inner {
+ width: 700px;
+}
+
+.carousel-item img {
+    width:640px;
+    height:360px;
+}
+
+blockquote {
+    border: none;
+}
+
+.quote{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.7rem;
+}
+
+.quote-container {
+    background-color: #d6d6d6 ;
+    height: 110px;
+}
+
+footer {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    background: #fff;
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration:underline #FCDA05;
+    color: #000;
+}
+
+.basquiat-logo {
+    width: 3%;
+    border-radius: 90%;
+    margin-top: -5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-container {
+        align-items: flex-start;
+        width:750px;
+    } 
+    .title-container {
+        width: 590px;
+    }
+    #title {
+        font-size: 6rem;
+    }
+    .subtitle {
+        font-size: 1rem;
+    }   
+    #insta {
+        margin-right: -20px;
+        margin-top: 20px;
+    }
+    #image {
+        width: auto;
+    }
+    .headline {
+        font-size: 5rem;
+        width:750px;
+    }
+    .headline-begin{
+        width:720px;
+    }
+    ul {
+        margin-left: 20px;
+    }
+     #tribute-info ul li {  
+         line-height: 1;
+         margin-left: -20px;
+     }
+     .crown {
+         width: 4%;
+     }
+    .carousel-inner {
+        width:620px;
+        height: 400px;
+       }
+    .carousel-item img {
+        width:620px;
+        height: 400px;
+    }
+    .quote{
+        font-size: 1.2rem;
+        padding: 25px;
+    }
+     footer {
+        padding: 15px;
+        font-size: 1.2rem;
+    } 
+    .basquiat-logo {
+        width: 5%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    #main{ 
+        width:770px;
+    }
+    .main-container {
+        align-items: flex-start;
+        width:750px;
+    } 
+    .title-container {
+        width: 590px;
+    }
+    #title {
+        font-size: 6rem;
+    }
+    .subtitle {
+        font-size: 1rem;
+    }   
+    #insta {
+        margin-right: -20px;
+        margin-top: 20px;
+    }
+    #image {
+        width: auto;
+    }
+    .headline {
+        font-size: 5rem;
+        width:750px;
+    }
+    .headline-begin{
+        width:720px;
+    }
+    ul {
+        margin-left: 20px;
+    }
+     #tribute-info ul li {  
+         line-height: 1;
+         margin-left: -20px;
+     }
+     .crown {
+         width: 4%;
+     }
+     .carousel-container {
+        width:770px;
+     }
+    .carousel-inner {
+        width:620px;
+        height: 400px;
+    }
+    .carousel-item img {
+        width:620px;
+        height: 400px;
+    }
+    .quote-container {
+        width:770px;
+    }
+    .quote{
+        font-size: 1.2rem;
+        padding: 25px;
+    }
+     footer {
+        width:770px;
+        padding: 15px;
+        font-size: 1.2rem;
+    } 
+    .basquiat-logo {
+        width: 5%;
+    }
+  }
+
+
