@@ -1,4 +1,4 @@
-# tributepage.github.io
+## Tribute Page 🎨
 
 ## freeCodeCamp
 
@@ -46,3 +46,9 @@ User Story #9: The img element should be centered within its parent element.
 ## Test result
 
 ![](https://github.com/vivianemartini/tributepage.github.io/blob/main/img/tribute_page.JPG)
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Acknowledgments
+- Thanks freeCodeCamp
